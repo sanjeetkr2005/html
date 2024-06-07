@@ -1,0 +1,93 @@
+div{
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 600px;
+}
+/* element selecter */
+
+
+
+#one{
+    background-color: chartreuse;
+}
+/* id selector */
+
+
+.two{
+    background-color: darkslategray;
+}
+/* class selector */
+
+a[href='http://youtube.com']{
+background-color: rgb(144, 80, 255);
+} 
+/* attr selector */
+
+
+input[type='text']{
+    background-color: crimson;
+}
+/* attr selector */ 
+
+
+a[href^='http']{
+    background-color: dimgrey;
+}
+/* start with 'http' */
+
+
+a[href$='com']{
+    background-color: ivory;
+}
+/* End with'com' */
+
+
+a[href*='youtube']{
+    background-color: lawngreen;
+}
+
+
+
+
+/* *{
+    background-color: lightsalmon;
+}
+
+
+
+body{
+    background-color: mediumturquoise;
+} */
+
+
+
+div p{
+    background-color: magenta;
+}
+/* deep selector */
+
+
+/* ol>li{
+    background-color: sienna;
+} */
+/* direct child selector */
+
+li:first-child{
+    background-color: olive;
+}
+
+div{
+    height:150px;
+    width:150px;
+    background-color: blueviolet;
+    transition: 3s;
+}
+
+div:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+
+li:nth-of-type(3){
+    background-color: forestgreen;
+}
